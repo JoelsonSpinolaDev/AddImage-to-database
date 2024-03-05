@@ -1,0 +1,24 @@
+.tamanho {
+  height: 4em;
+}
+
+.detailsFrom {
+  display: flex;
+  flex-direction: row;
+  min-height: 80vh;
+  max-height: 100vh;
+  justify-content: space-between;
+  align-items: start;
+}
+.detailsFrom div {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  justify-content: center;
+}
+.infoConteiner,
+.imageConteiner {
+  display: flex;
+  width: 50%;
+  padding: 5em;
+}
